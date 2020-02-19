@@ -103,6 +103,13 @@ figure img:hover {
     -moz-transform: scale(2);
     -o-transform: scale(2);
 }
+#impact-drop figure img:hover {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 img {
     transition: transform 0.2s;
     -webkit-transition: -webkit-transform 0.2s;
